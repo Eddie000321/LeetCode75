@@ -1,5 +1,8 @@
 SELECT e.name AS Employee
 FROM Employee e
-JOIN Employee m
-  ON e.managerId = m.id
- AND e.salary > m.salary;
+WHERE e.managerId IS NOT NULL
+  AND e.salary > (
+    SELECT m.salary
+    FROM Employee m
+    WHERE m.id = e.managerId
+  );
