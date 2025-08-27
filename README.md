@@ -16,4 +16,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Eddie000321/LeetCode75/tree/master/1146-greatest-common-divisor-of-strings) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Eddie000321/LeetCode75/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
